@@ -1,0 +1,531 @@
+*
+{
+    display: 0px;
+    margin: 0px;
+    ;
+}
+/* Pour bien redimentionner le corps de la page */
+body
+{
+   width: 100vw;
+   height: 100vh; 
+   overflow-y: scroll;
+   overflow-x: hidden;
+   word-wrap: break-word;
+   box-sizing: border-box ;
+}
+/* formatage de la navbar */
+.list
+ {
+    
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style-type: none; 
+    height: 100%;
+    width: 35%;
+    font-size: 25px;
+
+
+ }
+.list a:hover{
+   background:#e7e7e7 ;
+   color: #000000;
+   padding: 10px 10px 10px 10px;
+   border-radius: 100px 100px 100px 100px;
+ }
+a
+{
+   text-decoration: none;
+   color: #000000;
+}
+header
+{
+    background-color: #ffffff;
+    width: 100vw;
+    height: 8vh;
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    /* position: fixed; */
+
+}
+/* formatage du header */
+#sec2
+{  
+   background-color: #241e28;
+   color: white;
+   display: flex;
+   flex-direction: row;
+   padding: 15px 15px;
+   align-items: center;
+   justify-content: center;
+}
+.text1
+{
+   display: flex;
+   align-items: center;
+   width: 90%;
+   height: 100%;
+   padding-bottom: 50px;
+}
+.cont2
+{
+   display: flex;
+   align-items: flex-start;
+}
+.image1
+{
+   
+   border-radius: 50px 50px 50px 50px;
+}
+.para1
+{
+display: flex;
+font-size: 38px;
+align-items: center;
+ height: 100%;
+ width: 25vw; 
+ background-color: #ffffff;  
+}
+.para1 span 
+{
+   margin-left: 2.5vw;
+}
+.para2
+{
+   width: 65%;
+   height: 100%;
+   text-align: justify;
+   display:flex;
+   flex-direction: column;
+   justify-content: space-around;
+
+}
+.profil1
+{
+   height: 100%;
+   width: 25vw; 
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin: 30px 0 30px 0px;
+   padding: 25px 25px;
+   }
+.fil1
+{
+   letter-spacing: 1.25px;
+}
+
+
+.proj2
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 30px;
+
+}
+.sec3
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 25px;
+}
+#sec3
+{  
+   background-color: #312938;
+   color: #fff;
+
+}
+/* la galerie */
+.galerie{
+  display: grid;
+  padding-top: 15px; 
+  justify-content: center;
+  grid-auto-columns: 300px 300px 300px 300px;
+}
+.galerie1
+{
+   grid-column: 1;
+   grid-row: 1;
+}
+.galerie2
+{
+   grid-column: 2;
+   grid-row: 1;
+}
+.galerie3
+{
+   grid-column: 3;
+   grid-row: 1;
+}
+.galerie4
+{
+   grid-column: 4;
+   grid-row: 1;
+}
+.galerie5
+{
+   grid-column: 1;
+   grid-row: 2;
+}
+.galerie6
+{
+   grid-column: 2;
+   grid-row: 2;
+}
+.galerie7
+{
+   grid-column: 3;
+   grid-row: 2;
+}
+.galerie8
+{
+   grid-column: 4;
+   grid-row: 2;
+}
+img
+{
+   padding: 20px 20px 20px 20px;
+} 
+
+#form{
+  width: 100%;
+  background-color: #312938;
+  padding:20px 30px;
+  font-family:'Montserrat',sans-serif;
+  position:relative;
+  text-align: center;
+ 
+} 
+  
+#titre1{
+  margin:10px 0;
+  padding-bottom:10px;
+  width:180px;
+  color:#ffffff;
+  border-bottom:3px solid #ffffff;
+
+}
+input{
+  width: 100%;
+  padding:20 20px 20px;
+  box-sizing:border-box;
+  background:none;
+  outline:none;
+  resize:none;
+  border:0;
+  font-family:'Montserrat',sans-serif;
+
+  border-bottom:2px solid #ffffff
+}
+p:before{
+  content:attr(type);display:block;
+  margin:28px 0 0;
+  font-size:14px;
+  color:#ffffff
+}
+button{
+   padding:20px 100px 20px 100px;
+   margin:15px 0 15px 15px;
+   font-family:'Montserrat',sans-serif;
+   border-radius: 15px 15px 15px 15px;
+   background-color: #7b38d8;
+   color: #ffffff;
+   border: none;
+   text-align:center;
+  }
+#b1
+{
+  
+display: flex;
+justify-content: center;
+align-items: center;
+}
+footer h3
+{
+   padding-left: 20px;
+}
+
+
+/* a propos debut ici  */
+#secA{
+   background-color: #312938 ;
+}
+/* la galerie */
+#galerieA{
+   display: grid;
+   padding: 15px;
+   justify-content: center; 
+   grid-auto-columns: 200px 200px 200px 200px ;
+}
+.imagea
+{
+   grid-column: 1;
+   grid-row: 1;
+   border-radius: 50px 50px 50px 50px;
+}
+.imageb
+{
+   grid-column: 5;
+   grid-row: 2;
+  border-radius: 50px 50px 50px 50px;
+}
+.imagec
+{
+   
+   border-radius: 50px 50px 50px 50px;
+}
+.imaged
+{
+   
+  border-radius: 50px 50px 50px 50px;
+}
+.imagee
+{
+   
+   border-radius: 50px 50px 50px 50px;
+}
+.imagef
+{
+   
+  border-radius: 50px 50px 50px 50px;
+}
+.imageg
+{
+   
+   border-radius: 50px 50px 50px 50px;
+}
+.imageh
+{
+   
+  border-radius: 50px 50px 50px 50px;
+}
+
+.imagei
+{
+   
+   border-radius: 50px 50px 50px 50px;
+}
+.imagej
+{
+   
+  border-radius: 50px 50px 50px 50px;
+}
+
+
+
+/* la dispostion de la page apropos */
+
+
+
+#apropos
+{
+    background-color:#312938 ;
+}
+/* disposition de la premiere section de la page */
+.morceau1
+{
+ display: grid;
+ grid-auto-columns: 250px 250px 250px 250px;
+ justify-content: center;
+ height: 100%;
+ width:100%;
+
+}
+
+img{
+    margin: 10px 0 10px 0;
+}
+
+.im1{
+    grid-column: 1;
+   grid-row: 1;
+   margin-top: 100px;
+}
+.im2{
+    grid-column: 2;
+   grid-row: 1;
+   margin-top: 100px;
+}
+.im3{
+    grid-column: 3;
+   grid-row: 1;
+   margin-top:100px;
+}
+.im4{
+    grid-column: 4;
+   grid-row: 1;
+   margin-top: 100px;
+}
+.im5{
+    grid-column: 5;
+   grid-row: 1;
+   margin-top:100px;
+}
+.im6{
+    grid-column: 1;
+   grid-row: 2;
+}
+.im7{
+    grid-column: 2;
+   grid-row: 2;
+}
+.im8{
+    grid-column: 3;
+   grid-row: 2;
+}
+.im9{
+    grid-column: 4;
+   grid-row: 2;
+} 
+.im10{
+    grid-column: 5;
+   grid-row: 2;
+}
+/* disposition de la deuxieme section de la page */
+
+.morceau3
+{
+    color: white;
+    padding-bottom:5%;
+    margin: 25px 450px 150px 450px;
+    text-align: justify; 
+
+}
+
+.morceau2 h2
+{
+    padding-top: 5%;
+    padding-left: 29%;
+    color: rgb(199, 138, 255);
+}
+#morceau2
+{
+    background-color: white;
+}
+ /* disposition de l page tarifs */
+ 
+ .tarifs 
+ {
+     background-color: #312938;
+ }
+ #partie1
+ {
+     display: flex;
+     justify-content: space-evenly;
+     margin: 30px 0 30px 0;
+ }
+ .partie1
+ {   width: 22%;
+     color: white;
+     padding: 30px 30px 60px 30px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
+     text-align: justify;
+     border-right: solid 2px rgb(186, 135, 234);
+     border-bottom: solid 2px rgb(186, 135, 234)
+ }
+ .partie2
+ {
+     width: 22%;
+     color: white;
+     padding: 30px 30px 60px 30px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
+     text-align: justify;
+     border-right: solid 2px rgb(186, 135, 234);
+     border-bottom: solid 2px rgb(186, 135, 234)
+ }
+ .partie3
+ {
+     width: 22%;
+     color: white;
+     padding: 30px 30px 60px 30px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
+     text-align: justify;
+     border-right: solid 2px rgb(186, 135, 234);
+     border-bottom: solid 2px rgb(186, 135, 234)
+ }
+ .morceau4
+ {
+     margin: 5.3% 5.3% 4% 5%;
+     font-size: 40px;
+     color: rgb(169, 108, 225);
+     
+ }
+ .partie1 h4{
+     padding-top: 20px;
+     color: rgb(169, 108, 225);
+ }
+ .partie2 h4{
+     padding-top: 20px;
+     color: rgb(169, 108, 225);
+ }
+ .partie3  h4{
+     padding-top: 20px;
+     color: rgb(169, 108, 225);
+ }
+ 
+ .tab1
+ {
+     color: rgb(169, 108, 225); 
+     font-size: 35px;
+     padding: 50px 0 50px 180px;  
+ }
+  
+ /* l en-tete du tableau */
+ .tab
+ {
+     height: 55px;
+     font-weight:bold;
+     font-size: 25px;
+     
+ }
+ /* le tableau */
+ table
+ {
+     translate: 15%;
+     border-collapse:collapse ;
+     margin-bottom: 50px;
+ }
+ 
+ td
+ {
+     border: solid 1.5px rgb(169, 108, 225);
+     height: 100px;
+     width: 25vw ;
+     
+   
+ }
+ tr
+ {
+     height: 100px;
+     text-align: center;
+     color: white;
+     
+   
+ }
+ tr:nth-child(1)
+ {
+     height: 20px;
+    
+ }
+ /* disposition de la page portfolio */
+
+ .portfolio1
+{
+    color: rgb(169, 108, 225); 
+     font-size: 25px;
+     padding: 50px 0 75px 180px;
+     background-color: #312938;
+}
+.portfolio2 h2
+{
+
+ color: rgb(169, 108, 225);
+ font-size: 23px;
+ padding: 50px 0 25px 180px;
+font-weight: bold;
+}
+
+ 
+ 
+
